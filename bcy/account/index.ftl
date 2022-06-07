@@ -222,7 +222,8 @@
       <main role="main" class="pf-c-page__main">
         <section class="pf-c-page__main-section pf-m-light">
           <div class="pf-c-content" id="landingWelcomeMessage">
-            <h1>${msg("accountManagementWelcomeMessage")}</h1>
+            <#--  <h1>${msg("accountManagementWelcomeMessage")}</h1>  -->
+            <h1><strong>BCYCP's Identity and Access Management</strong></h1>
           </div>
         </section>
         <section class="pf-c-page__main-section">
