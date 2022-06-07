@@ -39,8 +39,10 @@
 <body class="${properties.kcBodyClass!}">
 <div class="${properties.kcLoginClass!}">
     <div id="kc-header" class="${properties.kcHeaderClass!}">
-        <div id="kc-header-wrapper"
-             class="${properties.kcHeaderWrapperClass!}">${kcSanitize(msg("loginTitleHtml",(realm.displayNameHtml!'')))?no_esc}</div>
+        <div id="kc-header-wrapper" class="${properties.kcHeaderWrapperClass!}">
+             <#--  ${kcSanitize(msg("loginTitleHtml",(realm.displayNameHtml!'')))?no_esc}  -->
+             <div class="kc-logo-text"><span>BCY-IAM</span></div>
+        </div>
     </div>
     <div class="${properties.kcFormCardClass!}">
         <header class="${properties.kcFormHeaderClass!}">

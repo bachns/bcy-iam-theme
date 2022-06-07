@@ -11,3 +11,4 @@ services:
       KEYCLOAK_WELCOME_THEME: bcy
     volumes:
       - ./bcy:/opt/jboss/keycloak/themes/bcy
+      - ./base:/opt/jboss/keycloak/themes/base
